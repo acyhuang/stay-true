@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "title": "Gold Soundz",
+        "artist": "Pavement",
+        "album": "Crooked Rain, Crooked Rain",
+        "year": 1994,
+        "page": 42,
+        "characters": ["Character A", "Character B"],
+        "itunesTrackId": "123456789",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/...",
+        "albumArt": "https://is1-ssl.mzstatic.com/...",
+        "spotifyUrl": "https://open.spotify.com/track/..."
+    },
+    {
+        "id": "2",
+        "title": "Even Flow",
+        "artist": "Pearl Jam",
+        "album": "Ten",
+        "year": 1991,
+        "page": 42,
+        "characters": ["Character A", "Character B"],
+        "itunesTrackId": "123456789",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/...",
+        "albumArt": "https://is1-ssl.mzstatic.com/...",
+        "spotifyUrl": "https://open.spotify.com/track/..."
+    }
+]
