@@ -8,9 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test:itunes": "tsx test-itunes-api.ts",
-    "parse": "tsx parser.ts",
-    "enrich": "tsx itunes-api.ts"
+    "test:itunes": "tsx scripts/test-itunes-api.ts",
+    "parse": "tsx scripts/parser.ts",
+    "enrich": "tsx scripts/itunes-api.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",

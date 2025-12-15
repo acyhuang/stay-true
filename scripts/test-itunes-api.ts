@@ -4,7 +4,7 @@
  * Example: npm run test:itunes 0
  */
 
-import songs from './src/data/songs.json' assert { type: 'json' };
+import songs from '../src/data/songs.json' assert { type: 'json' };
 
 interface iTunesSearchResult {
   trackId: number;
