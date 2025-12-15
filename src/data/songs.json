@@ -1,28 +1,405 @@
 [
-    {
-        "id": "1",
-        "title": "Gold Soundz",
-        "artist": "Pavement",
-        "album": "Crooked Rain, Crooked Rain",
-        "year": 1994,
-        "page": 42,
-        "characters": ["Character A", "Character B"],
-        "itunesTrackId": "123456789",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/...",
-        "albumArt": "https://is1-ssl.mzstatic.com/...",
-        "spotifyUrl": "https://open.spotify.com/track/..."
-    },
-    {
-        "id": "2",
-        "title": "Even Flow",
-        "artist": "Pearl Jam",
-        "album": "Ten",
-        "year": 1991,
-        "page": 42,
-        "characters": ["Character A", "Character B"],
-        "itunesTrackId": "123456789",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/...",
-        "albumArt": "https://is1-ssl.mzstatic.com/...",
-        "spotifyUrl": "https://open.spotify.com/track/..."
-    }
+  {
+    "id": "1",
+    "title": "Gold Soundz",
+    "artist": "Pavement",
+    "album": "Crooked Rain, Crooked Rain",
+    "year": 1994,
+    "page": 13,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "1589188131",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/46/28/de/4628dec4-b3d1-6c6c-bc5d-8b2281f77026/mzaf_3734694639070404819.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/47/6b/1a/476b1afc-452c-909e-a70f-15b055f5e6dc/744861007937.png/1000x1000bb.jpg"
+  },
+  {
+    "id": "2",
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "album": "Use Your Illusion I",
+    "year": 1991,
+    "page": 24,
+    "characters": [
+      "Hua's Dad",
+      "Hua"
+    ],
+    "itunesTrackId": "1440896193",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3c/eb/6b/3ceb6b17-b62b-9cb9-ee69-6c161aea7506/mzaf_11294109330794350435.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6a/e2/1f/6ae21fa9-c897-3be1-2967-50eefae22b93/06UMGIM05041.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "3",
+    "title": "I'll Be There",
+    "artist": "Mariah Carey",
+    "album": "MTV Unplugged EP",
+    "year": 1992,
+    "page": 24,
+    "characters": [
+      "Hua's Dad"
+    ],
+    "itunesTrackId": "181448355",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/8a/01/1b8a0180-a0b9-949f-636f-f9ceff0f37bc/mzaf_10783142219664725487.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dd/1e/32/dd1e3206-7f59-6744-c461-d29e723a9961/074645275826.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "4",
+    "title": "To Love Somebody",
+    "artist": "Michael Bolton",
+    "album": "",
+    "year": 1992,
+    "page": 24,
+    "characters": [
+      "Hua's Dad"
+    ],
+    "itunesTrackId": "171009097",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/9b/18/1a9b18fc-bb34-9d88-802b-8eb33aba6891/mzaf_17252590915310867662.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/7b/1f/03/7b1f03f4-ff23-393e-e26e-3b5e8798e961/dj.kudnyguu.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "5",
+    "title": "House of the Rising Sun",
+    "artist": "The Animals",
+    "album": "The Animals",
+    "year": 1964,
+    "page": 26,
+    "characters": [
+      "Hua's Dad"
+    ],
+    "itunesTrackId": "1453153998",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/c0/ed/9fc0ed1c-783c-d127-3581-d51f933f1e83/mzaf_14055373445965346124.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/79/76/0c7976ba-d48b-b0ab-f6da-6f7c3bd3bfd6/13ABKIM00099.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Sea of Joy",
+    "artist": "Blind Faith",
+    "album": "Blind Faith",
+    "year": 1969,
+    "page": 33,
+    "characters": [
+      "Hua's Dad"
+    ],
+    "itunesTrackId": "1440853881",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/9d/f4/d99df47d-65f1-929c-40dc-972d8bca20d1/mzaf_3831104028595984154.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/d6/46/d6d646e6-dbd4-6b96-1694-7b4754fa823a/00602537803613.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "album": "Thriller",
+    "year": 1982,
+    "page": 33,
+    "characters": [
+      "Hua's Parents"
+    ],
+    "itunesTrackId": "269573364",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/da/57/39da57ed-748a-4c68-b960-09bbfd7b208f/mzaf_4795304224481428165.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "page": 39,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "1440783625",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a6/53/1e/a6531efa-397c-eb73-ecab-9b2790c1471e/mzaf_16440344883389407474.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Come As You Are",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "page": 39,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "1440783636",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f4/3e/86/f43e8664-bdd9-bc56-8d2b-76064c865920/mzaf_15456055651529260945.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Tha Crossroads",
+    "artist": "Bone Thugs-N-Harmony",
+    "album": "E. 1999 Eternal",
+    "year": 1996,
+    "page": 76,
+    "characters": [
+      "Henry",
+      "Hua"
+    ],
+    "itunesTrackId": "1168167477",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/89/f9/82/89f982fe-0202-fd82-7618-5758b2ddc4b5/mzaf_10171744166364698785.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/fa/13/9ffa13d8-7855-c7d7-c522-464ed4c38a5d/191018283247.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Waterloo Sunset",
+    "artist": "The Kinks",
+    "album": "Something Else",
+    "year": 1967,
+    "page": 63,
+    "characters": [
+      "Hua",
+      "Alec",
+      "Ken"
+    ],
+    "itunesTrackId": "1436246985",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/09/45/d7/0945d7c0-7d34-a108-1795-f7476699866f/mzaf_15669443963826922464.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4a/b4/8d/4ab48d02-a6ee-9784-4cfd-77f7308bf439/5414939542374.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Smells Like Teen Spirit - Live in Del Mar, California/1991",
+    "artist": "Nirvana",
+    "album": "From the Muddy Banks of the Wishkah",
+    "year": 1996,
+    "page": 81,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "1586410997",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/79/57/34795713-ad49-9583-46d6-2b54851e4493/mzaf_1825698272138571447.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/53/5d/5c535d31-9c80-c752-3ea3-887615eb7d51/21UM1IM09416.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "13",
+    "title": "God Only Knows",
+    "artist": "The Beach Boys",
+    "album": "Pet Sounds",
+    "year": 1966,
+    "page": 59,
+    "characters": [
+      "Hua",
+      "Ken",
+      "Friends"
+    ],
+    "itunesTrackId": "1440841258",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/46/a1/b446a13f-0f88-3fc9-ddb3-dc961fa43566/mzaf_18171645173558515329.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/bb/c4/35bbc4eb-9387-97b0-b138-64b7a949ea43/13UABIM03512.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Crash into Me",
+    "artist": "Dave Matthews Band",
+    "album": "Crash",
+    "year": 1996,
+    "page": 111,
+    "characters": [
+      "Ken",
+      "Hua"
+    ],
+    "itunesTrackId": "388136331",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/20/4b/8b/204b8ba2-69f4-8d63-9f18-4f9bd4fd367f/mzaf_17751210183334827261.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1d/4f/38/1d4f38dd-e5ee-a14e-13a2-df60d4e3b431/884977724707.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "16",
+    "title": "Dangerous",
+    "artist": "Busta Rhymes",
+    "album": "When Disaster Strikes...",
+    "year": 1997,
+    "page": 111,
+    "characters": [
+      "Ken",
+      "Hua"
+    ],
+    "itunesTrackId": "321975782",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8c/6c/04/8c6c045d-9bbb-dd26-4908-5c8effc0ba1e/mzaf_1204726867868497841.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/83/5c/2e835cf2-be2c-c54c-cff9-161b2cab1d20/mzi.gzebllno.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "17",
+    "title": "Yellow Ledbetter",
+    "artist": "Pearl Jam",
+    "album": "Jeremy",
+    "year": 1992,
+    "page": 115,
+    "characters": [
+      "Ken",
+      "Hua"
+    ],
+    "itunesTrackId": "400864988",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6d/2e/48/6d2e48c8-cddf-981d-b37e-61ab41abfdc3/mzaf_3818098585470503703.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Features6/v4/76/af/5d/76af5df5-8f03-6ed7-5207-440ae2b80e94/dj.pxyseetm.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "18",
+    "title": "Jeremy",
+    "artist": "Pearl Jam",
+    "album": "Jeremy",
+    "year": 1992,
+    "page": 115,
+    "characters": [
+      "Ken"
+    ],
+    "itunesTrackId": "400864985",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/0f/7f/b20f7fef-c00d-c07b-7360-e7ff61dea320/mzaf_2613626414238008290.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Features6/v4/76/af/5d/76af5df5-8f03-6ed7-5207-440ae2b80e94/dj.pxyseetm.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Under Pressure",
+    "artist": "Queen & David Bowie",
+    "album": "Hot Space",
+    "year": 1981,
+    "page": 115,
+    "characters": [
+      "Hua",
+      "Ken"
+    ],
+    "itunesTrackId": "1440810475",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e7/3c/65/e73c65d5-dfaa-a320-08ca-1d8b4bba3a09/mzaf_3851109697136278815.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0d/d6/35/0dd635bf-19c3-58f1-b42a-219d898eb061/14DMGIM05554.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "20",
+    "title": "Piano Man",
+    "artist": "Billy Joel",
+    "album": "Piano Man",
+    "year": 1973,
+    "page": 143,
+    "characters": [
+      "Irami",
+      "Alec"
+    ],
+    "itunesTrackId": "158617575",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/13/90/25/139025cf-1d8e-ba76-b046-99c57afdd2b6/mzaf_10876850544092254096.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/67/f9/8d/67f98d03-7896-153f-4965-a92458c06965/dj.aiuntmgo.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "21",
+    "title": "Nice & Slow",
+    "artist": "Usher",
+    "album": "My Way",
+    "year": 1997,
+    "page": 147,
+    "characters": [
+      "Hua",
+      "Students"
+    ],
+    "itunesTrackId": "278845479",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f3/35/fd/f335fdf4-741b-77cd-89f2-6f71698e3d3b/mzaf_12346086506171687690.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/ff/a3/3fffa34f-4699-a646-c175-c936446fc540/dj.rxuxuefh.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "22",
+    "title": "Make 'Em Say Ugh",
+    "artist": "Master P",
+    "album": "Ghetto D",
+    "year": 1997,
+    "page": 148,
+    "characters": [
+      "Hua",
+      "Students"
+    ],
+    "itunesTrackId": "715828487",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/23/fc/91/23fc9114-c360-1063-2670-cb7bb1dd4732/mzaf_15468882017182568075.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a2/b4/3d/a2b43d07-18e4-fb09-1434-562f54aa199c/13UAAIM05751.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "23",
+    "title": "It Ain't My Fault",
+    "artist": "Silkk the Shocker",
+    "album": "Charge It 2 Da Game",
+    "year": 1998,
+    "page": 148,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "723812311",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/80/53/1a/80531ac7-7d8d-c5d4-ab50-57aa394477cb/mzaf_2307047227807705030.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/54/61/bb/5461bb11-d3dd-1f87-5c13-9a548218df32/00094633903753.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "24",
+    "title": "The Boy Is Mine",
+    "artist": "Brandy & Monica",
+    "album": "Never Say Never",
+    "year": 1998,
+    "page": 148,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "20913041",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/7e/8a/c67e8a3a-475b-3571-fac4-5145b610d9b6/mzaf_16674626658882826392.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/52/c5/b152c569-f81f-4005-7b61-5b54b855564d/s06.hfdwpdak.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "25",
+    "title": "Are You That Somebody?",
+    "artist": "Aaliyah",
+    "album": "I Care 4 U",
+    "year": 1998,
+    "page": 148,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "1816084628",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/3b/27/663b275f-c60d-ac5d-ee12-4552bd0da942/mzaf_10592585847002045633.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/72/61/b0/7261b044-c728-aec2-a463-11efbbbb51e4/5034644712833.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "26",
+    "title": "As",
+    "artist": "Stevie Wonder",
+    "album": "Songs in the Key of Life",
+    "year": 1976,
+    "page": 173,
+    "characters": [
+      "Jimmy (Inmate)"
+    ],
+    "itunesTrackId": "1440788744",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a4/0c/75/a40c75d6-a913-901e-868a-15070b0e1c8e/mzaf_1391235120460059177.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/eb/1f/12/eb1f12ec-474c-63aa-43af-09282f423b9d/00602537004737.rgb.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "27",
+    "title:": "You Got Me",
+    "artist": "The Roots",
+    "album": "Things Fall Apart",
+    "year": 1999,
+    "page": 177,
+    "characters": [
+      "Hua"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "I'll Be Missing You",
+    "artist": "Puff Daddy, Faith Evans, 112",
+    "album": "No Way Out",
+    "year": 1997,
+    "page": 178,
+    "characters": [
+      "Hua"
+    ],
+    "itunesTrackId": "906589235",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/54/19/5a/54195a37-421b-ced2-db22-25f4ef3d7739/mzaf_11221823721095413086.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f3/7a/df/f37adf7e-b4ad-68a7-9c01-6f9e32a6a9fe/603497898749.jpg/1000x1000bb.jpg"
+  },
+  {
+    "id": "30",
+    "title": "The Drugs Don't Work",
+    "artist": "The Verve",
+    "album": "Urban Hymns",
+    "year": 1997,
+    "page": 186,
+    "characters": [
+      "Hua",
+      "Joie"
+    ],
+    "itunesTrackId": "1443258320",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/85/3f/6d853fd0-2f02-efa1-de9a-55e7c427d5f2/mzaf_16835788473515492823.plus.aac.p.m4a",
+    "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5c/b1/85/5cb18512-9cbd-7b84-4042-37f23bc2ae45/17UMGIM89555.rgb.jpg/1000x1000bb.jpg"
+  }
 ]
