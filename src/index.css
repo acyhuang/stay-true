@@ -4,4 +4,22 @@
     body {
         font-family: Arial, sans-serif;
     }
+    button {
+        color: #0000EE;
+        &:hover {
+            color: #551A8B;
+            text-decoration: underline;
+        }
+    }
+    .list {
+        background-color: #F4F4F4;
+    }
+    .controls {
+        padding: 2px 4px 2px 4px;
+        border: 1px solid #CCCCCC;
+        &:hover {
+            text-decoration: none;
+            background-color: #F4F4F4;
+        }
+    }
 }

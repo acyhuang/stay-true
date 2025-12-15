@@ -70,53 +70,57 @@ function App() {
   return (
     <>
       <div className='flex flex-row w-screen h-screen justify-between p-4 gap-4 text-sm'>
+        {filteredSongs[currentIndex].previewUrl && (
+          <audio 
+            ref={audioRef}
+            key={currentIndex}
+            autoPlay
+            onPlay={() => setIsPlaying(true)}
+            onPause={() => setIsPlaying(false)}
+            onEnded={() => setIsPlaying(false)}
+          >
+            <source src={filteredSongs[currentIndex].previewUrl} type='audio/mpeg' />
+          </audio>
+        )}
         <div className='flex flex-col w-full h-full justify-between'>
           <div className='w-full'>
-            <p className='text-2xl mb-4'>Songs of <i>Stay True</i></p>
+            <p className='text-2xl mb-4 font-bold'>Songs of <a className='text-[#0000EE] hover:underline hover:text-[#551A8B]' href="https://www.penguinrandomhouse.com/books/688054/stay-true-by-hua-hsu/" target="_blank"><i>Stay True</i></a></p>
 
             {filteredSongs[currentIndex].albumArt && (
-              <img className='max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl' src={filteredSongs[currentIndex].albumArt} alt={filteredSongs[currentIndex].title} />
+              <img className='mb-4 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl' src={filteredSongs[currentIndex].albumArt} alt={filteredSongs[currentIndex].title} />
             )}
 
-            {filteredSongs[currentIndex].previewUrl && (
-              <audio 
-                ref={audioRef}
-                key={currentIndex}
-                autoPlay
-                onPlay={() => setIsPlaying(true)}
-                onPause={() => setIsPlaying(false)}
-                onEnded={() => setIsPlaying(false)}
-              >
-                <source src={filteredSongs[currentIndex].previewUrl} type='audio/mpeg' />
-              </audio>
-            )}
-            <div>
+            
+            <div className="flex flex-row gap-2">
               <button
                 type='button'
                 onClick={togglePlayPause}
+                className="controls"
               >
-                {isPlaying ? 'pause' : 'play'}
+                {isPlaying ? 'PAUSE' : 'PLAY'}
               </button>
               
               <button 
                 type='button' 
                 onClick={() => setCurrentIndex(currentIndex - 1)}
                 disabled={currentIndex === 0}
+                className="controls"
               >
-                prev
+                PREV
               </button>
               <button type='button' 
                 onClick={() => setCurrentIndex(currentIndex + 1)}
                 disabled={currentIndex === filteredSongs.length - 1}
+                className="controls"
               >
-                next
+                NEXT
               </button>
             </div>
             
           </div>
           
           <div>
-            <p>{filteredSongs[currentIndex].title}</p>
+            <p className="font-bold text-[#551A8B]">{filteredSongs[currentIndex].title}</p>
             <p>{filteredSongs[currentIndex].artist}</p>
             <p>{filteredSongs[currentIndex].album}</p>
             <p>{filteredSongs[currentIndex].year}</p>
@@ -125,7 +129,7 @@ function App() {
           </div>
         </div>
 
-        <div className='flex flex-col min-w-xs items-start'>
+        <div className='list flex flex-col min-w-xs items-start gap-1 p-2 border-x border-[#CCCCCC]'>
           <div>
             <select
               id="character-filter"
@@ -134,7 +138,7 @@ function App() {
                 setSelectedCharacter(e.target.value)
                 setCurrentIndex(0)
               }}
-              className=""
+              className="mb-2"
             >
               <option value="All">Filter by character</option>
               {uniqueCharacters.map(character => (
